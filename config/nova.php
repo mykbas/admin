@@ -16,9 +16,9 @@ return [
     | framework needs to display the name of the application within the UI
     | or in other locations. Of course, you're free to change the value.
     |
-    */
+ */
 
-    'name' => 'Nova Site',
+    'name' => 'Oxford Information System',
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     | name in the Nova navigation bar. You are free to change this URL to
     | any location you wish depending on the needs of your application.
     |
-    */
+     */
 
     'url' => env('APP_URL', '/'),
 
@@ -42,9 +42,9 @@ return [
     | change this path to anything you like. Note that this URI will not
     | affect Nova's internal API routes which aren't exposed to users.
     |
-    */
+     */
 
-    'path' => '/nova',
+    'path' => '/dashboard',
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     | chance to add your own middleware to this stack or override any of
     | the existing middleware. Or, you can just stick with this stack.
     |
-    */
+     */
 
     'middleware' => [
         'web',
